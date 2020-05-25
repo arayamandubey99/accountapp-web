@@ -1,1 +1,120 @@
-<p>product works!</p>
+<!doctype html>
+<html>
+
+ <body class="container-fluid">
+
+<!--HEADER-->
+   <div class ="header" >
+    <h4><b> Product/Service Information </b></h4>
+    </div>
+
+
+<div class='row'>
+  <div class='col'>
+   <img src="assets\tshirt.png" class="rounded-circle uk-icon-small" alt="...">
+    Inventory  <a href="#">Change Type</a>
+
+  </div>
+</div>
+
+<hr>
+<!--FORM-->
+<form>
+    <div class="row">
+        <section class="col">
+          <label for="Name">Name*</label>
+          <br />
+          <textarea name="message" placeholder="PRODUCT-1" id="message" cols="30" rows="3" class="col-12 small "></textarea>
+          <Br>
+          <label for="SKU">SKU</label>
+          <input class="form-control" type="text" placeholder="SKU code" >
+        </section>
+
+
+        <section class= "col" style="text-align:center; ">
+            <div>
+              <div class="text-center">
+               <img src= "assets\1.jpg" class="mce-i-image" alt="image" style="width: 175px; height:125px; padding: 10px">
+                  <br>
+                   <a href="#"></a><img src="assets\pencil.png" class="ui-icon-image mr-4" alt="image" >
+                    <a href="#"></a><img src="assets\trash.png"  class="ui-icon-image" alt="image" >
+              </div>
+
+
+             </div>
+        </section>
+      </div>
+
+
+<div>
+        <div> <!--HSN , Unit, NOS-->
+          <br>
+          <label for="SKU" >HSN code </label>
+          <input class="form-control col" type="text" placeholder="SKU code" >
+          <a style="font-size: x-small;">Not sure about HSN code ? <a href="" style="font-size: x-small;">Look up here</a></a>
+
+        </div>
+  <br>
+
+        <div class="row">
+          <div class="col-6">
+            <label for="name">Unit</label>
+             <select class="form-control" id="exampleFormControlSelect1">
+               <option>NOS-NUMBERS</option>
+               <option>2</option>
+               <option>3</option>
+               <option>4</option>
+               <option>5</option>
+             </select>
+          </div>
+        <div class="col" style="padding-top">
+          <label for="NOS">NOS </label>
+          <input class="form-control  " type="text" placeholder="NOS" >
+        </div>
+       </div>
+  <br>
+
+<!--Category-->
+  <label for="name">Category</label>
+  <select class="form-control" id="exampleFormControlSelect1">
+    <option>Choose a Category</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+    <option>5</option>
+  </select>
+
+
+        <div>
+          <br>
+          <label for="quantity" >Initial Quantity on Hand* </label>
+          <div class="float-right">
+          <input class="form-control col-12" type="text" placeholder="100" style="align-right" >
+          </div>
+
+
+        </div>
+</div>
+
+
+
+<hr>
+<br>
+<!--buttons-->
+
+  <div class="row col-md-6">
+    <div class="button align-center">
+
+      <button type="button" class="btn btn-success" style=" margin:15px">NEW</button>
+      <button type="button" class="btn btn-success " style=" margin:15px">UPDATE</button>
+      <button type="button" class="btn btn-success" style=" margin:15px">DELETE</button>
+      <button type="button" class="btn btn-success" style=" margin:15px">SAVE</button>
+
+
+    </div>
+</div>
+
+</form>
+</body>
+</html>
+
