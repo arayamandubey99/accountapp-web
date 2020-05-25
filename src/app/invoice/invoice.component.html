@@ -1,1 +1,290 @@
-<p>invoice works!</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<style>
+  
+</style>
+<body>
+
+  <div class="container-fluid">
+
+ <form action="" method="POST">
+<div class="bg-light text-dark p-5">
+
+        <h2><i class="fa fa-history"></i> Invoice No.1011</h2>
+        <br />
+
+        <div class="row">
+          <div class=" d-flex col-8">
+            <div class="col-4">
+              <label for="name">Cutomer <i class="fa fa-question-circle" aria-hidden="true"></i></label>
+              <br />
+              <input type="text" id="name" name="name" class="form-control" />
+            </div>
+            <div class="col-4">
+                <label for="email">Email Address <i class="fa fa-question-circle" aria-hidden="true"></i></label><br />
+              <input type="email" id="email" name="_replyto" class="form-control " /><br />
+            
+            </div>
+            
+            <div id="a" >
+              <a href="#" class="card-link-flex-right">Setup Now</a>
+              <a id="Razorpay" class="form-text text-muted-flex-auto">Razorpay</a>
+          </div>
+            
+          </div>
+          <div class=" col-4 text-right" >
+           <a>Balance Due</a>
+                <h1>Rs. 1062.00</h1>
+          </div>
+        </div>
+
+        <!-- *****line2******* -->
+        <div class="row">
+          <div class=" d-flex col-8">
+            <div class="col-4">
+              <label for="name">GST registered-Regular</label>
+             
+            </div>
+            
+            
+            <div> 
+              
+                <input type="checkbox" class="custom-control-input-col-sm" id="checkbox" style="margin-left: 20px">
+                <label class="custom-control-label-float-right text-muted" for="checkbox">Send Later <i class="fa fa-question-circle" aria-hidden="true"></i></label>
+                <a href="#" class="card-link col-4 text-right">Cc/Bcc</a>
+            </div>
+            
+          </div>
+          <div class=" col-4 " >
+           
+              
+            
+          </div>
+        </div>
+ <!-- *****line3******* -->
+<br \>
+    <div class="row">
+          <div class=" d-flex col-8">
+            <div class="col-4">
+              <label for="name"> Billing Address</label>
+              <br />
+              
+              <textarea name="message" placeholder="mr. manish arora svit vijay nagar indore Madhya Pradesh 452010" id="message" cols="30" rows="5" class="col-12 "></textarea>
+            </div>
+            <div class="col-2">
+              <label for="name"> Terms <i class="fa fa-question-circle" aria-hidden="true"></i></label>
+              <br />
+              
+              <input type="name" id="email" name="_replyto" class="form-control " /><br />
+            </div>
+            <div class="col-3">
+              <label for="name">Invoice Date</label>
+              <br />
+              
+              <input type="Date" class="form-control" id="inputDate-sm" placeholder=""><br />
+            </div>
+            <div class="col-3">
+              <label for="name">Due Date</label>
+              <br />
+              
+              <input type="Date" class="form-control" id="inputDate-sm" placeholder=""><br />
+            </div>
+            
+            
+            
+           
+            
+          </div>
+           <div class=" col-4">
+          
+            <label for="email" >Invoice no.</label><br />
+            <input type="name" id="email" name="_replyto" class="form-control col-4"  /><br />
+            
+          </div>
+        </div>
+
+<!-- *****line4******* -->
+<div class="row">
+          <div class=" d-flex col-8">
+            <div class="col-4">
+              <label for="name">Place of Supply</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+             
+            </div>
+            
+            
+           
+            
+          </div>
+          <div class=" col-4 " >
+           
+              
+            
+          </div>
+        </div>
+</div>
+<br \>
+<div class="row">
+          <div class=" d-flex col-10">
+            <div class=" col-4 " >
+            </div>
+            
+           
+            
+          </div>
+         
+           
+               <div class="col-2 d-flex">
+              <label for="name">Amounts are </label>
+              <select class="form-control col-6" id="exampleFormControlSelect1"> Exclusive of Tax
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+             
+            
+            
+          </div>
+        </div>
+</div>
+
+
+
+
+</form>
+</div>
+                <table class="table table-striped" style=" margin-top:10px; font-family: arial, sans-serif;border-collapse: collapse;width: 100%;" >
+                <thead >
+                <tr>
+                <th class="center" style="border: 1px solid #dddddd;text-align: left; padding: 8px;"></th>
+                <th class="center" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">#</th>
+                <th style="border: 1px solid #dddddd;text-align: left; padding: 8px;">Product/Service</th>
+                <th style="border: 1px solid #dddddd;text-align: left; padding: 8px;">HSN/SAC</th>
+
+                <th class="right" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">Description</th>
+                  <th class="center" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">Qty</th>
+                <th class="right" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">Rate</th>
+                  <th class="center" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">Amount</th>
+                  <th class="center"style="border: 1px solid #dddddd;text-align: left; padding: 8px;">Tax</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr style="border: 1px solid #dddddd;text-align: left; padding: 8px;">
+
+                <td class="center" style="border: 1px solid #dddddd;text-align: left; padding: 8px;"></td>
+                <td class="center" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">1</td>
+                <td class="left strong" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">PRODUCT 12</td>
+                <td class="left" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">0101</td>
+
+                <td class="right" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">      </td>
+                  <td class="center" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">3</td>
+                <td class="right" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">Rs.300</td>
+                <td class="center" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">900</td>
+                  <td class="center" style="border: 1px solid #dddddd;text-align: left; padding: 8px;">18.0% GST</td>
+                </tr>
+                <tr>
+
+                <td class="center" style="border: 1px solid #dddddd;text-align: left; padding: 8px;"></td>
+                <td class="center" style="border: 1px solid #dddddd;text-align: left; padding: 8px;"> </td>
+                <td class="left" style="border: 1px solid #dddddd;text-align: left; padding: 8px;"> </td>
+                <td class="left" style="border: 1px solid #dddddd;text-align: left; padding: 8px;"> </td>
+
+                <td class="right" style="border: 1px solid #dddddd;text-align: left; padding: 8px;"></td>
+                  <td class="center" style="border: 1px solid #dddddd;text-align: left; padding: 8px;"></td>
+                <td class="right" style="border: 1px solid #dddddd;text-align: left; padding: 8px;"></td>
+                <td class="right" style="border: 1px solid #dddddd;text-align: left; padding: 8px;"></td>
+                <td class="right" style="border: 1px solid #dddddd;text-align: left; padding: 8px;"></td>
+                </tr>
+                <tr>
+                </tr>
+
+
+                </tbody>
+                </table>
+        </div>
+            <div class="row">
+            <div class="col-lg-4 col-sm-5">
+
+
+
+                <div class="col-lg-4 col-sm-5 ml-auto">
+                  <table class="table table-clear">
+                  <tbody>
+
+                  </table>
+                </div>
+
+            </div>
+         </div>
+</div>
+
+              <div class="d-flex">
+                  <div class="float-left col-8">
+                    <button type="button" class="btn btn-light" style="margin: 5px; background-color: #E0E0E0">Add Lines</button>
+                    <button type="button" class="btn btn-light" style="margin: 5px;background-color: #E0E0E0">Clear all Lines</button>
+                    <button type="button" class="btn btn-light" style="margin: 5px;background-color: #E0E0E0">Add Subtotal</button>
+
+                  </div>
+
+                  <div class="float-right col-4" style="float: right;">
+                    <a><b>Subtotal</b> </a> <a style="margin-left: 70px"><b> Rs.900.00 </b></a>
+              <br \>
+                    <a>GST @9% on 900  </a> <a style="margin-left: 30px">    <button type="button" class ="btn btn-light" style="background-color: #E0E0E0">81.00</button></a>
+                  </div>
+
+
+
+            </div>
+            <!--*********************** FOOTER****************************************-->
+            <div class="d-flex" style=" background-color: #181818;" >
+              <div class="col-lg-3 col-md-6 footer-info" >
+                <button type="button" class ="btn btn-light" style="background-color:#181818; color: white; margin:5px">Cancel</button>
+                <button type="button" class ="btn btn-light" style="background-color:#181818; color: white; margin:5px">Clear</button>
+                    
+                  </div>
+                    <div style="margin-left: 200px">
+                    <a style="color: white; margin: 15px">Print or Preview</a>
+                    <a style="color: white; margin: 15px"> | </a>
+                    <a style="color: white; margin: 15px">Make recurring</a>
+                    <a style="color: white; margin: 15px"> |  </a>
+                    <a style="color: white; margin: 15px">Customize</a>
+                    </div>                  
+                  
+
+
+                  <div class="float-right col-4" style="float: right;">
+                     <button type="button" class ="btn btn-light" style="background-color:#181818; margin-left:350px; color: white;">save</button>
+                    <button type="button" class ="btn btn-light" style="background-color:#32CD32; float: right;">save and send</button>
+
+                  </div>
+
+            </div>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
