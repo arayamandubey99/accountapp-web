@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style >
+
+  </style>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <form action="" method="POST">
+        <h1>Customer Information</h1>
+        <br />
+        <!-- ****************line1********************** -->
+        <div class="row">
+          <div class=" d-flex col-6">
+            <div class="col-2">
+              <label for="name">Title</label>
+              <br />
+              <input type="text" id="name" name="name" class=" form-control " />
+            </div>
+            <div class="col-3">
+              <label for="name">First name</label>
+              <br />
+              <input type="text" id="name" name="name" class="form-control " />
+            </div>
+            <div class="col-3">
+              <label for="name">Middle name</label>
+              <br />
+              <input type="text" id="name" name="name" class=" form-control " />
+            </div>
+            <div class="col-3">
+              <label for="name">Last name</label>
+              <br />
+              <input type="text" id="name" name="name" class="form-control " />
+            </div>
+            <div class="col-1">
+              <label for="name">Suffix</label>
+              <br />
+              <input type="text" id="name" name="name" class="form-control " />
+            </div>
+          </div>
+          <div class=" col-6">
+            <label for="email">Email </label><br />
+            <input type="email" id="email" name="_replyto" class="form-control col-12" /><br />
+          </div>
+        </div>
+        <!-- //line2************************************ -->
+        <div class="d-flex">
+          <div class="col-6">
+            <div class=" mr-3 ">
+              <label for="name">Company name</label>
+              <br />
+              <input type="text" id="name" name="name" class="form-control col-12" />
+            </div>
+          </div>
+          <div class="d-flex col-6">
+            <div class="  ">
+              <label for="name">Phone</label>
+              <br />
+              <input type="text" id="name" name="name" class="form-control col-12" />
+            </div>
+            <div class=" col-4">
+              <label for="name">Mobile</label>
+              <br />
+              <input type="text" id="name" name="name" class="form-control col-12" />
+            </div>
+            <div class="col-4">
+              <label for="name">Fax</label>
+              <br />
+              <input type="text" id="name" name="name" class="form-control col-12" />
+            </div>
+          </div>
+        </div>
+        <!-- *********line3***************** -->
+         <!-- *********line3***************** -->
+        <div class="d-flex">
+          <div class="col-6">
+            <div class=" mr-3 form-group ">
+              <label for="name"><span style="color: red;">*</span>Display Name as</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+              </select>
+            </div>
+          </div>
+          <div class="d-flex col-6">
+            <div class="  ">
+              <label for="name">Other</label>
+              <br />
+              <input type="text" id="name" name="name" class="form-control col-12" />
+            </div>
+            <div class=" mr-3 col-8">
+              <label for="name">Website</label>
+              <br />
+              <input type="text" id="name" name="name" class="form-control col-12" />
+            </div>
+          </div>
+        </div>
+        <!-- *********line4***************** -->
+        <div class="d-flex">
+          <div class="d-flex col-6">
+            <div class="col-6 ">
+            </div>
+            <div class=" mr-3 col-6 ">
+            </div>
+          </div>
+          <div class=" col-6">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck" name="example1">
+              <label class="custom-control-label" for="customCheck">is sub-customer</label>
+            </div>
+          </div>
+        </div>
+        <!-- *********line5***************** -->
+        <div class="d-flex">
+          <div class="d-flex col-6">
+            <div class="col-6 ">
+              <label for="name"><span style="color: red;">*</span>GST registration type</label>
+              <br />
+              <select class="browser-default custom-select col-12" placeholder="Consumer" required >
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class=" mr-3 col-6 ">
+              <label for="name">GST In</label>
+              <br />
+              <input type="text" id="name" name="name" placeholder="For e.g.29APPCK7465F1Z1" class="col-12" disabled/>
+            </div>
+          </div>
+          <div class="d-flex col-6">
+            <div class="col-6 ">
+              <label for="name"></label>
+              <br />
+              <select class="browser-default custom-select col-12" placeholder="Enter parent customer" disabled >
+                <option selected disabled>Enter parent customer</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="col-6">
+              <label for="name"></label>
+              <br />
+              <select class="browser-default custom-select col-6" placeholder="Enter parent customer" disabled >
+                <option selected disabled>Bill With Parent</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-- *********line6***************** -->
+        <div class="ml-5">
+          <b class="text-primary">What is GST registration type?</b>
+        </div>
+        <br />
+        <!-- *********line7***************** -->
+
+
+<div class="container-fluid ">
+<nav>
+  <div class="nav nav-tabs ml-5" id="nav-tab" role="tablist">
+    <a class="nav-item nav-link  border" id="nav-address-tab" data-toggle="tab" href="#nav-address" role="tab" aria-controls="nav-address" aria-selected="true">Adress</a>
+    <a class="nav-item nav-link bg-light border" id="nav-notes-tab" data-toggle="tab" href="#nav-notes" role="tab" aria-controls="nav-notes" aria-selected="false">Notes</a>
+    <a class="nav-item nav-link bg-light border" id="nav-tax-tab" data-toggle="tab" href="#nav-tax" role="tab" aria-controls="nav-tax" aria-selected="false">Tax Info</a>
+    <a class="nav-item nav-link bg-light border" id="nav-payment-tab" data-toggle="tab" href="#nav-payment" role="tab" aria-controls="nav-payment" aria-selected="false">Payment and billing</a>
+    <a class="nav-item nav-link bg-light border" id="nav-attach-tab" data-toggle="tab" href="#nav-attach" role="tab" aria-controls="nav-attach" aria-selected="false">Attachments</a>
+  </div>
+</nav>
+
+<div class="tab-content ml-5  border" id="nav-tabContent">
+  <div class="tab-pane fade show active" id="nav-address" role="tabpanel" aria-labelledby="nav-address-tab">
+    <br \>
+    <div class="container-fluid">
+    <div class="row">
+
+      <section class="col-12 col-md-6">
+        <a class="ml-2"><b> Billing address </b> <a href="">map</a></a>
+         <textarea name="message" placeholder="Street" id="message" cols="30" rows="3" class="col-12 "></textarea><br />
+         <div class="row">
+          <div class="col-12 col-md-6">
+                    <textarea name="message" placeholder="City/Town" id="message" cols="15" rows="1" class="col-12"></textarea>
+          </div>
+          <div class="col-12 col-md-6">
+                    <textarea name="message" placeholder="State" id="message" cols="15"  rows="1" class="col-12 "></textarea>
+                  </div>
+          </div>
+      </section>
+      <section class="col-12 col-md-6">
+        <div class="row col-12">
+        <a><b> Shopping address    </b> <a href=""> map</a></a>
+                    <div class="custom-control custom-checkbox ml-5">
+                      <input type="checkbox" class="custom-control-input" checked="checked" id="customCheck1" name="example2" disabled>
+                      <label class="custom-control-label" for="customCheck1">Same as billing address</label>
+                    </div>
+        </div>
+        <textarea name="message" placeholder="Street" id="message" cols="30" rows="3" class="col-12 " disabled></textarea>
+        <div class="row">
+          <div class="col-12 col-md-6">
+                    <textarea name="message" placeholder="City/Town" id="message" cols="15" rows="1" class="col-12" disabled></textarea>
+          </div>
+          <div class="col-12 col-md-6">
+                    <textarea name="message" placeholder="State" id="message" cols="15"  rows="1" class="col-12 " disabled></textarea>
+                  </div>
+          </div>
+      </section>
+    </div>
+  </div>
+  </div>
+  <div class="tab-pane fade" id="nav-notes" role="tabpanel" aria-labelledby="nav-notes-tab">Notes</div>
+  <div class="tab-pane fade" id="nav-tax" role="tabpanel" aria-labelledby="nav-tax-tab">Tax Info</div>
+  <div class="tab-pane fade" id="nav-payment" role="tabpanel" aria-labelledby="nav-payment-tab">Payment and billing</div>
+  <div class="tab-pane fade" id="nav-attach" role="tabpanel" aria-labelledby="nav-attach-tab">Attachments</div>
+</div>
+</div>
+        <!-- *********line***************** -->
+        <br />
+        <div class="p-2">
+          <div class="d-flex">
+            <div class="col-6">
+              <button type="button" class="btn btn-light ml-5" style="border-radius: 40px">Cancel</button>
+            </div>
+            <div class=" d-flex ">
+              <div class="col-6 d-flex ">
+                <button type="button" class="btn btn-success mr-3 " style="border-radius: 40px">NEW</button>
+                <button type="button" class="btn btn-success mr-3" style="border-radius: 40px">UPDATE</button>
+                <button type="button" class="btn btn-success mr-3" style="border-radius: 40px">DELETE</button>
+                <button type="button" class="btn btn-success mr-3" style="border-radius: 40px">SAVE</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
