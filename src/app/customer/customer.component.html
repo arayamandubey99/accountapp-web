@@ -4,20 +4,21 @@
     <title></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style >
-
-  </style>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
 
   <body>
-    <div class="container-fluid">
-      <form action="" method="POST">
+    <header>
+      <div class="container-fluid">
         <h1>Customer Information</h1>
-        <br />
+        <br/>
+      </div>
+      </header>
+
         <!-- ****************line1********************** -->
+        <form action="" method="POST">
         <div class="row">
           <div class=" d-flex col-6">
             <div class="col-2">
@@ -180,52 +181,51 @@
     <a class="nav-item nav-link bg-light border" id="nav-attach-tab" data-toggle="tab" href="#nav-attach" role="tab" aria-controls="nav-attach" aria-selected="false">Attachments</a>
   </div>
 </nav>
-
 <div class="tab-content ml-5  border" id="nav-tabContent">
   <div class="tab-pane fade show active" id="nav-address" role="tabpanel" aria-labelledby="nav-address-tab">
-    <br \>
+    <br>
     <div class="container-fluid">
     <div class="row">
-
       <section class="col-12 col-md-6">
         <a class="ml-2"><b> Billing address </b> <a href="">map</a></a>
-         <textarea name="message" placeholder="Street" id="message" cols="30" rows="3" class="col-12 "></textarea><br />
-         <div class="row">
+              <textarea name="message" placeholder="Street" id="message" cols="30" rows="3" class="col-12 "></textarea><br />
+        <div class="row">
           <div class="col-12 col-md-6">
-                    <textarea name="message" placeholder="City/Town" id="message" cols="15" rows="1" class="col-12"></textarea>
+              <textarea name="message" placeholder="City/Town" id="message" cols="15" rows="1" class="col-12"></textarea>
           </div>
           <div class="col-12 col-md-6">
-                    <textarea name="message" placeholder="State" id="message" cols="15"  rows="1" class="col-12 "></textarea>
-                  </div>
+              <textarea name="message" placeholder="State" id="message" cols="15"  rows="1" class="col-12 "></textarea>
           </div>
+        </div>
       </section>
       <section class="col-12 col-md-6">
         <div class="row col-12">
-        <a><b> Shopping address    </b> <a href=""> map</a></a>
-                    <div class="custom-control custom-checkbox ml-5">
-                      <input type="checkbox" class="custom-control-input" checked="checked" id="customCheck1" name="example2" disabled>
-                      <label class="custom-control-label" for="customCheck1">Same as billing address</label>
-                    </div>
+          <a><b> Shopping address    </b> <a href=""> map</a></a>
+              <div class="custom-control custom-checkbox ml-5">
+                  <input type="checkbox" class="custom-control-input" checked="checked" id="customCheck1" name="example2" disabled>
+                  <label class="custom-control-label" for="customCheck1">Same as billing address</label>
+              </div>
         </div>
-        <textarea name="message" placeholder="Street" id="message" cols="30" rows="3" class="col-12 " disabled></textarea>
+              <textarea name="message" placeholder="Street" id="message" cols="30" rows="3" class="col-12 " disabled></textarea>
         <div class="row">
           <div class="col-12 col-md-6">
-                    <textarea name="message" placeholder="City/Town" id="message" cols="15" rows="1" class="col-12" disabled></textarea>
+              <textarea name="message" placeholder="City/Town" id="message" cols="15" rows="1" class="col-12" disabled></textarea>
           </div>
           <div class="col-12 col-md-6">
-                    <textarea name="message" placeholder="State" id="message" cols="15"  rows="1" class="col-12 " disabled></textarea>
-                  </div>
+              <textarea name="message" placeholder="State" id="message" cols="15"  rows="1" class="col-12 " disabled></textarea>
           </div>
+        </div>
       </section>
     </div>
+   </div>
   </div>
-  </div>
+</div>
   <div class="tab-pane fade" id="nav-notes" role="tabpanel" aria-labelledby="nav-notes-tab">Notes</div>
   <div class="tab-pane fade" id="nav-tax" role="tabpanel" aria-labelledby="nav-tax-tab">Tax Info</div>
   <div class="tab-pane fade" id="nav-payment" role="tabpanel" aria-labelledby="nav-payment-tab">Payment and billing</div>
   <div class="tab-pane fade" id="nav-attach" role="tabpanel" aria-labelledby="nav-attach-tab">Attachments</div>
 </div>
-</div>
+
         <!-- *********line***************** -->
         <br />
         <div class="p-2">
@@ -240,12 +240,11 @@
                 <button type="button" class="btn btn-success mr-3" style="border-radius: 40px">DELETE</button>
                 <button type="button" class="btn btn-success mr-3" style="border-radius: 40px">SAVE</button>
               </div>
-
             </div>
           </div>
         </div>
       </form>
-    </div>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
