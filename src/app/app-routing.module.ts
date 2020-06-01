@@ -6,7 +6,7 @@ import { InvoiceComponent } from './invoice/invoice.component';
 import { ProductComponent } from './product/product.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/product', pathMatch: 'full' },
+  { path: '', redirectTo: '/customer', pathMatch: 'full' },
   {
     path: 'product',
     component: ProductComponent
